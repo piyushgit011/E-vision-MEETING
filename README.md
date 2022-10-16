@@ -38,10 +38,14 @@ nodemon
 ## :camera_flash: Screenshots
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/101383635/193437611-74e42708-1cf3-4166-85c7-b1f68ac9a0a9.png">
 <img width="500" alt="image" src="https://user-images.githubusercontent.com/101383635/193437658-d1f67d2e-2419-4f2f-b1aa-ca48c8c98c6b.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/96625965/196036189-f26017f5-bd46-40c6-9987-cebe0eabce7b.png">
+
+
 
 ## :handshake: Contributing
 
 Contributions, issues and feature requests are welcome!
+
 
 ## 🍻 Credits
 
