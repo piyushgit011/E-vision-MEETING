@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800&family=Rubik+Dirt&display=swap");
+
+@layer base {
+  .box {
+    @apply container mx-auto max-w-[1350px] px-5;
+  }
+  .btn {
+    @apply uppercase flex flex-row gap-1 sm:gap-2 items-center text-white font-medium p-1 md:p-2 rounded-sm sm:rounded-lg cursor-pointer text-[10px] md:text-base;
+  }
+  .sideMenuItems{
+    @apply flex flex-col items-center text-white text-lg w-full border-b border-gray-200 text-center p-5 hover:bg-slate-700 cursor-pointer
+  }
+  .select{
+    @apply p-2 outline-none text-black rounded-lg font-semibold
+  }
+  .user{
+    @apply flex gap-5 border-b border-gray-500
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body, html{
+  background-color: #040c21;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.bgGradient {
+  background: linear-gradient(
+    90deg,
+    rgba(250, 251, 63, 1) 0%,
+    rgba(252, 182, 70, 1) 40%,
+    rgba(250, 70, 108, 1) 99%
+  );
+}

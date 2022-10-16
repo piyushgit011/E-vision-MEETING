@@ -1,0 +1,74 @@
+<table>
+    <div
+      className="flex flex-col items-center gap-3 justify-center text-white text-lg"
+    >
+      <div className="user">
+        <thead>
+          <th>Name:</th>
+          <td>{userInfo.name}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>Role:</th>
+          <td>{userInfo.person}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>Father's name:</th>
+          <td>{userInfo.fatherName}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>Mother's name:</th>
+          <td>{userInfo.motherName}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>Phone Number:</th>
+          <td>+91 {userInfo.phone}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>DOB:</th>
+          <td>{userInfo.dob}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>Address:</th>
+          <td>{userInfo.address}</td>
+        </thead>
+      </div>
+      <div className="user">
+        <thead>
+          <th>Classes:</th>
+          {userInfo.class.length > 0 ? (
+          <td>
+            {userInfo.class.map((Number) => (
+            <span>{Number}, </span>
+            ))}
+          </td>
+        </thead>
+        ) : ( "Not specified" )}
+      </div>
+      <button
+        className="btn bgGradient text-siteBg px-4"
+        onClick="{handleLogout}"
+      >
+        Log Out
+      </button>
+    </div>
+  </table>
+  
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
